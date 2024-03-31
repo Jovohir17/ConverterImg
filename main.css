@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стили для ширины экрана 640px и менее */
+@media (max-width: 640px) {
+
+    .df{
+        display: flex;
+    }
+
+    header{
+        width: 100%;
+        height: 1015px;
+        background: black;
+    }
+
+    .explore{
+        margin-top: -200px;
+        width: 60%;
+        margin-left: -100px;
+    }
+
+    .display-elemts{
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -650px;
+    }
+
+    h1{
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 19vw;
+        font-weight: 700;
+        line-height: 111px;
+        text-align: left;
+    }
+
+    .first{
+        color: rgb(255, 255, 255);
+        font-family: Mont;
+        font-size: 19vw;
+        font-weight: 700;
+        line-height: 111px;
+        text-align: left;
+    }
+
+    .second{
+        color: rgb(189, 243, 71);
+        font-family: Mont;
+        font-size: 20vw ;
+        font-weight: 700;
+        line-height: 126px;
+        text-align: left;
+        margin-top: -9px;
+    }
+
+    .bb{
+        color: rgb(255, 255, 255);
+        font-family: ABeeZee;
+        font-style: italic;
+        font-size: 5vw;
+        font-weight: 400;
+        line-height: 33px;
+        text-align: left;
+    }
+
+    .bottom1{
+        display: none;
+    }
+    .bottom2{
+        display: none;
+    }
+
+    .swipe{
+        display: none;
+    }
+
+    .br{
+        display: none;
+    }
+
+    .ik{
+        display: none;
+    }
+
+    .section-item{
+        margin-top: -400px;
+        margin-left: 10%;
+        color: beige;
+    }
+
+    .h2{
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 7vw;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: left;
+        width: 80%;
+    }
+
+    .hh3{
+        color: rgb(189, 243, 71);
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 2px;
+    }
+
+    .button {
+        margin-top: 27px;
+        box-sizing: border-box;
+        border: 2px solid rgb(189, 243, 71);
+        border-radius: 37px;
+        background: rgba(0, 0, 0, 0);
+        width: 90%;
+        height: 71px;
+        color: rgb(189, 243, 71);
+        font-family: sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        transition: transform .2s ease;
+
+    }
+
+    .button:hover {
+        background-color: rgb(189, 243, 71); /* Изменение цвета фона при наведении */
+        color: black; /* Изменение цвета текста при наведении */
+
+    }
+
+    .tem{
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 3vw;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 27%;
+    }
+
+
+}
+
+@media (min-width: 641px) and (max-width: 1920px) {
+    header {
+        width: 1910px;
+        height: 1005px;
+        background: black;
+    }
+
+    .explore {
+        margin-top: 1.8%;
+        position: absolute;
+    }
+
+    h2, h3 {
+        color: white;
+    }
+
+    .display-elemts {
+        margin-left: 908px;
+        padding-top: 141px;
+    }
+
+    .df {
+        display: flex;
+    }
+
+    h1 {
+        color: white;
+        font-family: sans-serif;
+        font-size: 140px;
+        font-weight: 700;
+        line-height: 169px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+
+
+    .first {
+        color: white;
+        font-family: sans-serif;
+        font-size: 140px;
+        font-weight: 700;
+        line-height: 169px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+
+    .second {
+        font-family: sans-serif;
+        font-size: 170px;
+        font-weight: 700;
+        line-height: 206px;
+        text-align: left;
+        color: rgb(189, 243, 71);
+        margin-top: -30px;
+    }
+
+    .bb {
+        color: rgb(255, 255, 255);
+        font-family: ABeeZee;
+        font-style: italic;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 47px;
+        text-align: left;
+    }
+
+    .bottom1 {
+        /* down-arrow-56 5 */
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        margin-left: 908px;
+        margin-top: -6px;
+    }
+
+    .bottom2 {
+        /* down-arrow-56 5 */
+        position: absolute;
+        width: 104px;
+        height: 104px;
+        margin-top: -26px;
+        margin-left: 908px;
+    }
+
+    .swipe {
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 176px;
+
+    }
+
+    /*Section*/
+    section {
+        background: black;
+        width: 1910px;
+        height: 1005px;
+    }
+
+    .section-item {
+        margin-left: 347px;
+        padding-top: 146px;
+        z-index: 2;
+    }
+
+    .br {
+        margin-top: 304px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .ik {
+        margin-left: 1165px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .h2 {
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 68px;
+        font-weight: 700;
+        line-height: 82px;
+        text-align: left;
+    }
+
+    .hh3 {
+        margin-left: 135px;
+        color: rgb(189, 243, 71);
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+
+    .button {
+        margin-left: 280px;
+        margin-top: 90px;
+        box-sizing: border-box;
+        border: 2px solid rgb(189, 243, 71);
+        border-radius: 37px;
+        background: rgba(0, 0, 0, 0);
+        width: 644px;
+        height: 151px;
+        color: rgb(189, 243, 71);
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        transition: transform .2s ease;
+
+    }
+
+    .button:hover {
+        background-color: rgb(189, 243, 71); /* Изменение цвета фона при наведении */
+        color: black; /* Изменение цвета текста при наведении */
+        font-size: 45px; /* Изменение размера шрифта при наведении */
+
+    }
+
+    .tem {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: left;
+        margin-left: 461px;
+    }
+
+    label {
+        color: white;
+    }
+
+    input {
+        color: white;
+    }
+
+
+}
+
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+    width: 10px; /* Ширина скроллбара */
+    background-color: #000; /* Цвет фона скроллбара */
+}
+
+/* Стили для трека скроллбара (фон) */
+::-webkit-scrollbar-track {
+    background: #000; /* Цвет полоски скроллбара */
+
+}
+
+/* Стили для полоски скроллбара */
+::-webkit-scrollbar-thumb {
+    background: rgb(189, 243, 71); /* Цвет трека скроллбара */
+
+    border-radius: 5px; /* Радиус закругления углов полоски скроллбара */
+}
+
+/* Стили для полоски скроллбара при наведении */
